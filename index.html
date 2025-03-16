@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h2>WETTER APP</h2>
+
+      <form id="weather-form">
+        <label for="city-input">Bitte Geben Sie Ihre Stadt ein:</label>
+        <input type="text" id="city-input" required />
+        <button onclick="getWeather()">Wetter anzeigen</button>
+      </form>
+    </header>
+    <div id="weather-display"></div>
+  </body>
+</html>
